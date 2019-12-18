@@ -100,7 +100,7 @@ public class SplashScreen extends CordovaPlugin {
         cordova.getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                getView().setVisibility(View.GONE);
+                //getView().setVisibility(View.GONE);
             }
         });
         int drawableId = getSplashId();
